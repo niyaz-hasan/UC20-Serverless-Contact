@@ -10,6 +10,7 @@ module "lambda" {
   lambda_name         = var.lambda_function_name
   aws_dynamodb_table_arn = module.dynamodb.aws_dynamodb_table_arn
   aws_dynamodb_table_name = module.dynamodb.aws_dynamodb_table_name
+  email_recipient         = var.email_recipient
 }
 
 module "dynamodb" {
