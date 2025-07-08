@@ -9,5 +9,5 @@ variable "lambda_zip" {
 variable "aws_dynamodb_table_arn" {
 }
 
-variable "aws_dynamodb_table" {
+variable "aws_dynamodb_table_name" {
 }
