@@ -11,7 +11,7 @@ resource "aws_lambda_function" "this" {
 
   environment {
     variables = {
-      TABLE_NAME      = aws_dynamodb_table.contact_form.name
+      TABLE_NAME      = var.aws_dynamodb_table
       EMAIL_RECIPIENT = var.email_recipient
     }
   }

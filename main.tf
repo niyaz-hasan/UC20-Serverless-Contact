@@ -9,6 +9,7 @@ module "lambda" {
   lambda_zip     = data.archive_file.lambda_zip.output_path
   lambda_name         = var.lambda_function_name
   aws_dynamodb_table_arn = module.dynamodb.aws_dynamodb_table_arn
+  aws_dynamodb_table_name = module.dynamodb.aws_dynamodb_table_name
 }
 
 module "dynamodb" {
