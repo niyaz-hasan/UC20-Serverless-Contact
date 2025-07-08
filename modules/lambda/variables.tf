@@ -5,3 +5,6 @@ variable "lambda_name" {
 
 variable "lambda_zip" {
 }
+
+variable "aws_dynamodb_table_arn" {
+}

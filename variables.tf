@@ -16,3 +16,8 @@ variable "lambda_function_name" {
   type        = string
   default     = "test"
 }
+
+variable "email_recipient" {
+  description = "Email to receive contact form submissions"
+  type        = string
+}
