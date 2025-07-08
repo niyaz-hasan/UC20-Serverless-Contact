@@ -20,5 +20,5 @@ variable "lambda_function_name" {
 variable "email_recipient" {
   description = "Email to receive contact form submissions"
   type        = string
-  default     = "niyaz.hasanmohamed@hcltech.com"
+  default     = "niyazzz1996@gmail.com"
 }
